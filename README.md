@@ -68,17 +68,17 @@ This project uses the Stanford Question Answering Dataset (SQuAD v1.1).
 
 # Training Pipeline
 The training pipeline includes:
-Adam Optimizer
-Learning Rate Warmup
-Linear Learning Rate Decay
-Mixed Precision Training
-Gradient Clipping
-Custom Training Loop using tf.GradientTape
-Validation after every epoch
-Exact Match (EM) Evaluation
-F1 Score Evaluation
-Best Model Checkpoint Saving
-Results
+1.Adam Optimizer
+2.Learning Rate Warmup
+3.Linear Learning Rate Decay
+4.Mixed Precision Training
+5.Gradient Clipping
+6.Custom Training Loop using tf.GradientTape
+7.Validation after every epoch
+8.Exact Match (EM) Evaluation
+9.F1 Score Evaluation
+10.Best Model Checkpoint Saving
+11.Results
 
 The primary objective of this repository is to understand and implement BERT internals from first principles.
 
